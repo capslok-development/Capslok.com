@@ -1,0 +1,521 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "2mg6-4yyj",
+      "name" : "2018 Municipal Election Candidates",
+      "averageRating" : 0,
+      "category" : "Council Services",
+      "createdAt" : 1537194486,
+      "description" : "Official list of candidates for the 2018 City of Winnipeg Municipal Election.",
+      "displayType" : "table",
+      "downloadCount" : 4,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1537558838,
+      "licenseId" : "OGL_CANADA",
+      "newBackend" : false,
+      "numberOfComments" : 0,
+      "oid" : 29715811,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1537194613,
+      "publicationGroup" : 15521846,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1537558794,
+      "rowsUpdatedBy" : "2mb6-i6j3",
+      "tableId" : 15521846,
+      "totalTimesRated" : 0,
+      "viewCount" : 38,
+      "viewLastModified" : 1537558792,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 375328339,
+        "name" : "Name",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "name",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 69438779,
+        "cachedContents" : {
+          "largest" : "Zachary LINNICK",
+          "non_null" : 167,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Greg REID",
+            "count" : 20
+          }, {
+            "item" : "Gary NELSON",
+            "count" : 19
+          }, {
+            "item" : "Wendy BLOOMFIELD",
+            "count" : 18
+          } ],
+          "smallest" : "Adam BURKOWSKI"
+        },
+        "format" : { }
+      }, {
+        "id" : 375328340,
+        "name" : "Type",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "type",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 69438780,
+        "cachedContents" : {
+          "largest" : "School Trustee",
+          "non_null" : 167,
+          "null" : 0,
+          "top" : [ {
+            "item" : "Mayor",
+            "count" : 20
+          }, {
+            "item" : "Councillor",
+            "count" : 19
+          }, {
+            "item" : "School Trustee",
+            "count" : 18
+          } ],
+          "smallest" : "Councillor"
+        },
+        "format" : { }
+      }, {
+        "id" : 375328341,
+        "name" : "Ward",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "ward",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 69438781,
+        "cachedContents" : {
+          "largest" : "Waverley West",
+          "non_null" : 52,
+          "null" : 115,
+          "top" : [ {
+            "item" : "Charleswood - Tuxedo",
+            "count" : 20
+          }, {
+            "item" : "Daniel McIntyre",
+            "count" : 19
+          }, {
+            "item" : "Elmwood - East Kildonan",
+            "count" : 18
+          }, {
+            "item" : "Fort Rouge - East Fort Garry",
+            "count" : 17
+          }, {
+            "item" : "Mynarski",
+            "count" : 16
+          }, {
+            "item" : "North Kildonan",
+            "count" : 15
+          }, {
+            "item" : "Old Kildonan",
+            "count" : 14
+          }, {
+            "item" : "Point Douglas",
+            "count" : 13
+          }, {
+            "item" : "River Heights - Fort Garry",
+            "count" : 12
+          }, {
+            "item" : "St. Boniface",
+            "count" : 11
+          }, {
+            "item" : "St. James",
+            "count" : 10
+          }, {
+            "item" : "St. Norbert - Seine River",
+            "count" : 9
+          }, {
+            "item" : "St. Vital",
+            "count" : 8
+          }, {
+            "item" : "Transcona",
+            "count" : 7
+          }, {
+            "item" : "Waverley West",
+            "count" : 6
+          } ],
+          "smallest" : "Charleswood - Tuxedo"
+        },
+        "format" : { }
+      }, {
+        "id" : 375328342,
+        "name" : "School Division",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "school_division",
+        "position" : 4,
+        "renderTypeName" : "text",
+        "tableColumnId" : 69438782,
+        "cachedContents" : {
+          "largest" : "Winnipeg",
+          "non_null" : 107,
+          "null" : 60,
+          "top" : [ {
+            "item" : "Louis Riel",
+            "count" : 20
+          }, {
+            "item" : "Pembina Trails",
+            "count" : 19
+          }, {
+            "item" : "River East Transcona",
+            "count" : 18
+          }, {
+            "item" : "St James-Assiniboia",
+            "count" : 17
+          }, {
+            "item" : "Seven Oaks",
+            "count" : 16
+          }, {
+            "item" : "Winnipeg",
+            "count" : 15
+          }, {
+            "item" : "Seine River",
+            "count" : 14
+          } ],
+          "smallest" : "Louis Riel"
+        },
+        "format" : { }
+      }, {
+        "id" : 375328343,
+        "name" : "School Division Ward",
+        "dataTypeName" : "text",
+        "description" : "",
+        "fieldName" : "school_division_ward",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 69438783,
+        "cachedContents" : {
+          "largest" : "Silver Heights-Booth",
+          "non_null" : 107,
+          "null" : 60,
+          "top" : [ {
+            "item" : "1",
+            "count" : 20
+          }, {
+            "item" : "2",
+            "count" : 19
+          }, {
+            "item" : "3",
+            "count" : 18
+          }, {
+            "item" : "4",
+            "count" : 17
+          }, {
+            "item" : "King Edward-Deer Lodge",
+            "count" : 16
+          }, {
+            "item" : "Kirkfield-St Charles",
+            "count" : 15
+          }, {
+            "item" : "Silver Heights-Booth",
+            "count" : 14
+          }, {
+            "item" : "5",
+            "count" : 13
+          }, {
+            "item" : "6",
+            "count" : 12
+          }, {
+            "item" : "7",
+            "count" : 11
+          }, {
+            "item" : "8",
+            "count" : 10
+          }, {
+            "item" : "9",
+            "count" : 9
+          } ],
+          "smallest" : "1"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "license" : {
+        "name" : "Canada Open Government Licence",
+        "termsLink" : "http://open.canada.ca/en/open-government-licence-canada"
+      },
+      "metadata" : {
+        "custom_fields" : {
+          "Department" : {
+            "Group" : "Governance",
+            "Department" : "City Clerk's"
+          },
+          "Update Frequency" : {
+            "Interval" : "As Required"
+          },
+          "Licence" : {
+            "Licence" : "Open Government Licence - Winnipeg"
+          }
+        },
+        "rowLabel" : "Candidate",
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ]
+      },
+      "owner" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "2mb6-i6j3",
+        "displayName" : "Open Data Admin",
+        "screenName" : "Open Data Admin",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ 285, "1149D5D7-8CDD-43EA-9450-4805066A9D56", 285, 1537558794, "885712", 1537558794, "885712", null, "Ed ACKERMAN", "Mayor", null, null, null ]
+  , [ 286, "E3BDC4C4-F1E3-47A8-9F71-7F7DCCF4B922", 286, 1537558794, "885712", 1537558794, "885712", null, "Brian BOWMAN", "Mayor", null, null, null ]
+  , [ 287, "3CD22F2A-9D68-4204-8690-4DAFE9BCF093", 287, 1537558794, "885712", 1537558794, "885712", null, "Tim DIACK", "Mayor", null, null, null ]
+  , [ 288, "CBFCE281-F024-411A-92EB-1CE78A7F1F8F", 288, 1537558794, "885712", 1537558794, "885712", null, "Umar HAYAT", "Mayor", null, null, null ]
+  , [ 289, "C6608748-5ED0-436C-8982-83DD9A221898", 289, 1537558794, "885712", 1537558794, "885712", null, "Venkat MACHIRAJU", "Mayor", null, null, null ]
+  , [ 290, "DCDCA29B-F9BF-4EAC-9B1E-080580A09DBB", 290, 1537558794, "885712", 1537558794, "885712", null, "Jenny MOTKALUK", "Mayor", null, null, null ]
+  , [ 291, "561C84F4-D575-43DD-8378-0A544E83A2A5", 291, 1537558794, "885712", 1537558794, "885712", null, "Doug WILSON", "Mayor", null, null, null ]
+  , [ 292, "ACF08575-675C-4A4B-B86A-5CEF55623AB3", 292, 1537558794, "885712", 1537558794, "885712", null, "Don WOODSTOCK", "Mayor", null, null, null ]
+  , [ 293, "ED3E79B5-E31A-45B4-9CC8-A56959E9912F", 293, 1537558794, "885712", 1537558794, "885712", null, "Kevin KLEIN", "Councillor", "Charleswood - Tuxedo", null, null ]
+  , [ 294, "F65745A4-273B-4BA4-90C6-DDBC285A1D00", 294, 1537558794, "885712", 1537558794, "885712", null, "Kevin NICHOLS", "Councillor", "Charleswood - Tuxedo", null, null ]
+  , [ 295, "000D502C-B5CC-4C5A-9F2F-1990E907C3B6", 295, 1537558794, "885712", 1537558794, "885712", null, "Grant NORDMAN", "Councillor", "Charleswood - Tuxedo", null, null ]
+  , [ 296, "6BED57C5-FBC7-44A6-AFE4-2ADA840CE802", 296, 1537558794, "885712", 1537558794, "885712", null, "Ken ST. GEORGE", "Councillor", "Charleswood - Tuxedo", null, null ]
+  , [ 297, "0C755602-2BF1-4391-8118-2426C40B31AD", 297, 1537558794, "885712", 1537558794, "885712", null, "Josh BRANDON", "Councillor", "Daniel McIntyre", null, null ]
+  , [ 298, "20506CE6-F5A2-40AA-A62A-1BB8E54C2024", 298, 1537558794, "885712", 1537558794, "885712", null, "Cindy GILROY", "Councillor", "Daniel McIntyre", null, null ]
+  , [ 299, "EDBCF6A3-11F6-4633-A04D-EFDEB6DC4207", 299, 1537558794, "885712", 1537558794, "885712", null, "Sarowar MIAH", "Councillor", "Daniel McIntyre", null, null ]
+  , [ 300, "B265749D-A566-438C-8448-7988F18142AD", 300, 1537558794, "885712", 1537558794, "885712", null, "Robb MASSEY", "Councillor", "Elmwood - East Kildonan", null, null ]
+  , [ 301, "A415DEB1-6FBF-476E-B300-727E610DA302", 301, 1537558794, "885712", 1537558794, "885712", null, "Jason SCHREYER", "Councillor", "Elmwood - East Kildonan", null, null ]
+  , [ 302, "DE70710C-D669-48FC-84DD-19289017F945", 302, 1537558794, "885712", 1537558794, "885712", null, "Peter KOROMA", "Councillor", "Fort Rouge - East Fort Garry", null, null ]
+  , [ 303, "EC6449F2-2A38-4E0B-916B-6F3FBC2F4442", 303, 1537558794, "885712", 1537558794, "885712", null, "Stephanie MEILLEUR", "Councillor", "Fort Rouge - East Fort Garry", null, null ]
+  , [ 304, "86A4A0A9-8358-48FE-92E2-5A1E74B75DD6", 304, 1537558794, "885712", 1537558794, "885712", null, "Jeff PALMER", "Councillor", "Fort Rouge - East Fort Garry", null, null ]
+  , [ 305, "76E6F221-1E86-4237-A6C8-481CC35B10F9", 305, 1537558794, "885712", 1537558794, "885712", null, "Sherri ROLLINS", "Councillor", "Fort Rouge - East Fort Garry", null, null ]
+  , [ 306, "593592DB-EDB8-4EA6-98EE-A565C22F3245", 306, 1537558794, "885712", 1537558794, "885712", null, "Bryanna SPINA", "Councillor", "Fort Rouge - East Fort Garry", null, null ]
+  , [ 307, "3B0F5236-CDC8-47B2-90E7-393DFAABBCBA", 307, 1537558794, "885712", 1537558794, "885712", null, "Michael THOMPSON", "Councillor", "Fort Rouge - East Fort Garry", null, null ]
+  , [ 308, "F0125A55-E2CF-42A8-A1F1-ECA4F2EDAF76", 308, 1537558794, "885712", 1537558794, "885712", null, "Harry WOLBERT", "Councillor", "Fort Rouge - East Fort Garry", null, null ]
+  , [ 309, "8EF6A445-3A0C-46DF-A38D-6FC72420AFAA", 309, 1537558794, "885712", 1537558794, "885712", null, "Dave CAPAR", "Councillor", "Mynarski", null, null ]
+  , [ 310, "83A1B882-3063-4C5B-97B8-33BAFF9F6CC7", 310, 1537558794, "885712", 1537558794, "885712", null, "Ross EADIE", "Councillor", "Mynarski", null, null ]
+  , [ 311, "BB28463C-7DB2-4113-A39F-F8CCC9367AC3", 311, 1537558794, "885712", 1537558794, "885712", null, "Greg LITTLEJOHN", "Councillor", "Mynarski", null, null ]
+  , [ 312, "33F5E457-3180-4765-B3FF-4C31EB2EA5C1", 312, 1537558794, "885712", 1537558794, "885712", null, "Micheal WIENS", "Councillor", "Mynarski", null, null ]
+  , [ 313, "2E7BDB39-4226-40BE-911F-2812B25BA14E", 313, 1537558794, "885712", 1537558794, "885712", null, "Jeff BROWATY", "Councillor", "North Kildonan", null, null ]
+  , [ 314, "58CDF8C6-111D-462B-AAA1-C0F65A70736B", 314, 1537558794, "885712", 1537558794, "885712", null, "Andrew PODOLECKI", "Councillor", "North Kildonan", null, null ]
+  , [ 315, "640B281D-8E77-4433-A1A8-E2AF2745CADA", 315, 1537558794, "885712", 1537558794, "885712", null, "Bradley GROSS", "Councillor", "Old Kildonan", null, null ]
+  , [ 316, "FE0982C9-B8A3-4305-A773-68C278E818D3", 316, 1537558794, "885712", 1537558794, "885712", null, "Devi SHARMA", "Councillor", "Old Kildonan", null, null ]
+  , [ 317, "740D022A-812E-4A35-B3B9-F4679C384651", 317, 1537558794, "885712", 1537558794, "885712", null, "Kaur SIDHU", "Councillor", "Old Kildonan", null, null ]
+  , [ 318, "0AF257C7-9B22-43BC-98FD-47B9C36FC02E", 318, 1537558794, "885712", 1537558794, "885712", null, "Dean KOSHELANYK", "Councillor", "Point Douglas", null, null ]
+  , [ 319, "017CF58F-F5AF-4962-843B-BA3A28952501", 319, 1537558794, "885712", 1537558794, "885712", null, "Vivian SANTOS", "Councillor", "Point Douglas", null, null ]
+  , [ 320, "C1B7424F-17DF-4416-9086-CD8C3E4F36A3", 320, 1537558794, "885712", 1537558794, "885712", null, "Kate SJOBERG", "Councillor", "Point Douglas", null, null ]
+  , [ 321, "EF64CCD5-7516-487C-B76F-FC2805E2A2CA", 321, 1537558794, "885712", 1537558794, "885712", null, "Gary LENKO", "Councillor", "River Heights - Fort Garry", null, null ]
+  , [ 322, "B80DC9D0-743A-4590-B5DB-DAB7FB3FF30E", 322, 1537558794, "885712", 1537558794, "885712", null, "John ORLIKOW", "Councillor", "River Heights - Fort Garry", null, null ]
+  , [ 323, "230EE222-65D9-472B-9D38-CD77FF71531A", 323, 1537558794, "885712", 1537558794, "885712", null, "Garth STEEK", "Councillor", "River Heights - Fort Garry", null, null ]
+  , [ 324, "2592B2D2-DF20-4A65-B439-D60A1D5BB663", 324, 1537558794, "885712", 1537558794, "885712", null, "Matt ALLARD", "Councillor", "St. Boniface", null, null ]
+  , [ 325, "DED0C541-F0FE-41B8-A850-7AE4F5430570", 325, 1537558794, "885712", 1537558794, "885712", null, "Marcel BOILLE", "Councillor", "St. Boniface", null, null ]
+  , [ 326, "2FFDA737-B80E-4E58-B012-3F0537ED80A9", 326, 1537558794, "885712", 1537558794, "885712", null, "Shawn DOBSON", "Councillor", "St. James", null, null ]
+  , [ 327, "879EAB46-9D45-48BF-A3AD-D8DD638966F4", 327, 1537558794, "885712", 1537558794, "885712", null, "Scott GILLINGHAM", "Councillor", "St. James", null, null ]
+  , [ 328, "96F1DF13-77C3-4AC2-A61F-1A509719FB1F", 328, 1537558794, "885712", 1537558794, "885712", null, "Kurt MORTON", "Councillor", "St. James", null, null ]
+  , [ 329, "0EC2FB3C-4D34-401D-8004-FDB34AAB37B6", 329, 1537558794, "885712", 1537558794, "885712", null, "Markus CHAMBERS", "Councillor", "St. Norbert - Seine River", null, null ]
+  , [ 330, "91DDF662-7074-48DD-A614-D93D0E092B4D", 330, 1537558794, "885712", 1537558794, "885712", null, "Glenn CHURCHILL", "Councillor", "St. Norbert - Seine River", null, null ]
+  , [ 331, "B84C543C-DA00-4D1D-80AB-9B63EB8D9F98", 331, 1537558794, "885712", 1537558794, "885712", null, "Nancy COOKE", "Councillor", "St. Norbert - Seine River", null, null ]
+  , [ 332, "0583D427-5BC9-4A96-9C55-20E5FDD09442", 332, 1537558794, "885712", 1537558794, "885712", null, "Chris DAVIS", "Councillor", "St. Norbert - Seine River", null, null ]
+  , [ 333, "A7AC641D-8985-41CA-AE06-BD7E2E235924", 333, 1537558794, "885712", 1537558794, "885712", null, "Nikolas JOYAL", "Councillor", "St. Norbert - Seine River", null, null ]
+  , [ 334, "51AA2B20-FB49-44D2-84A1-C2EA88FB105E", 334, 1537558794, "885712", 1537558794, "885712", null, "Brian MAYES", "Councillor", "St. Vital", null, null ]
+  , [ 335, "FE7CE817-A2EB-44FC-8A0B-1599600EAEA3", 335, 1537558794, "885712", 1537558794, "885712", null, "Baljeet SHARMA", "Councillor", "St. Vital", null, null ]
+  , [ 336, "90000F05-A5D4-40FF-A883-5F8DBDC8F0F6", 336, 1537558794, "885712", 1537558794, "885712", null, "Alex ALLARD", "Councillor", "Transcona", null, null ]
+  , [ 337, "9D768F9D-36A9-44EB-B979-0DF1209CD62F", 337, 1537558794, "885712", 1537558794, "885712", null, "Basil EVAN", "Councillor", "Transcona", null, null ]
+  , [ 338, "A2930EE2-C127-4E0D-B04D-B3FA7ED464C4", 338, 1537558794, "885712", 1537558794, "885712", null, "Shane GESCHIERE", "Councillor", "Transcona", null, null ]
+  , [ 339, "F21980D9-1A9C-4CD9-805D-46C55411B00F", 339, 1537558794, "885712", 1537558794, "885712", null, "Steven LIPISCHAK", "Councillor", "Transcona", null, null ]
+  , [ 340, "8B25693F-00B2-4128-92BA-CBCF0F8CACCC", 340, 1537558794, "885712", 1537558794, "885712", null, "Shawn NASON", "Councillor", "Transcona", null, null ]
+  , [ 341, "59A084D9-80F3-48C1-BD07-6164FC8BE8D9", 341, 1537558794, "885712", 1537558794, "885712", null, "Sandeep SHARMA", "Councillor", "Transcona", null, null ]
+  , [ 342, "8CFF3957-6600-4DC3-A71D-A327BBE34605", 342, 1537558794, "885712", 1537558794, "885712", null, "Wally WELECHENKO", "Councillor", "Transcona", null, null ]
+  , [ 343, "8436BEB8-4A92-418B-8D4D-D4330B585E76", 343, 1537558794, "885712", 1537558794, "885712", null, "Raymond ULASY", "Councillor", "Transcona", null, null ]
+  , [ 344, "F9C3C59E-D141-4E36-BE61-DAAB3DA9D2BF", 344, 1537558794, "885712", 1537558794, "885712", null, "Janice LUKES - Acclaimed", "Councillor", "Waverley West", null, null ]
+  , [ 345, "BEE7DCF9-0A01-420B-A1F4-15ECEEB8F71E", 345, 1537558794, "885712", 1537558794, "885712", null, "Louise JOHNSTON", "School Trustee", null, "Louis Riel", "1" ]
+  , [ 346, "24745F96-8E53-419F-A6A3-B6FD7D4E97C6", 346, 1537558794, "885712", 1537558794, "885712", null, "Claude PLANTE", "School Trustee", null, "Louis Riel", "1" ]
+  , [ 347, "E9A1E3A0-549C-4D0F-BA03-2D5E67D8B7E1", 347, 1537558794, "885712", 1537558794, "885712", null, "Tanya POMANSKI", "School Trustee", null, "Louis Riel", "1" ]
+  , [ 348, "079F3A68-9428-4E08-A2EF-D471820B687A", 348, 1537558794, "885712", 1537558794, "885712", null, "Cindy Turner", "School Trustee", null, "Louis Riel", "1" ]
+  , [ 349, "EF4FAB5C-4952-4BEA-A52D-AD796A6476AB", 349, 1537558794, "885712", 1537558794, "885712", null, "Mark OLFERT", "School Trustee", null, "Louis Riel", "2" ]
+  , [ 350, "F51D0A7E-C209-4B08-83FA-38A3D87832AE", 350, 1537558794, "885712", 1537558794, "885712", null, "Robert PAGE", "School Trustee", null, "Louis Riel", "2" ]
+  , [ 351, "735DA056-485F-4C79-A4E7-23AEFF45D58C", 351, 1537558794, "885712", 1537558794, "885712", null, "Rodger SALM", "School Trustee", null, "Louis Riel", "2" ]
+  , [ 352, "D7F65719-466B-49EE-93AF-7FCF4B1E2A56", 352, 1537558794, "885712", 1537558794, "885712", null, "Chris SIGURDSON", "School Trustee", null, "Louis Riel", "2" ]
+  , [ 353, "D33A087D-A071-49D3-95A5-2FA85C51EA77", 353, 1537558794, "885712", 1537558794, "885712", null, "Denisa GAVAN-COOP", "School Trustee", null, "Louis Riel", "3" ]
+  , [ 354, "457B96FB-2161-40B5-AB0C-0F191E01614E", 354, 1537558794, "885712", 1537558794, "885712", null, "Ajay GUPTA", "School Trustee", null, "Louis Riel", "3" ]
+  , [ 355, "5A9CB94F-7E4A-4EF7-B69B-553922224F39", 355, 1537558794, "885712", 1537558794, "885712", null, "Josie LANDRY", "School Trustee", null, "Louis Riel", "3" ]
+  , [ 356, "693BF72D-FA24-41BB-9D58-C4BAD598F31E", 356, 1537558794, "885712", 1537558794, "885712", null, "Sandy NEMETH", "School Trustee", null, "Louis Riel", "3" ]
+  , [ 357, "75531A37-C3CE-40C0-9824-52083C528EDA", 357, 1537558794, "885712", 1537558794, "885712", null, "Ian RICHARDSON", "School Trustee", null, "Louis Riel", "3" ]
+  , [ 358, "FB20BB44-C2F2-44EB-A4C6-2A8BCD75DDB1", 358, 1537558794, "885712", 1537558794, "885712", null, "Neil VADEBONCOEUR", "School Trustee", null, "Louis Riel", "3" ]
+  , [ 359, "BFDDD7BE-62BA-46BC-9506-692962581591", 359, 1537558794, "885712", 1537558794, "885712", null, "Hugh COBURN", "School Trustee", null, "Louis Riel", "4" ]
+  , [ 360, "20303103-F920-4A53-B2D5-434215F24AD0", 360, 1537558794, "885712", 1537558794, "885712", null, "Darcy COLLIGNON", "School Trustee", null, "Louis Riel", "4" ]
+  , [ 361, "634D1A72-6774-4C59-9DFE-E2D876556CCF", 361, 1537558794, "885712", 1537558794, "885712", null, "Pamela KOLOCHUK", "School Trustee", null, "Louis Riel", "4" ]
+  , [ 362, "DA5C96D3-5DD3-434F-8835-8A82CBF9754D", 362, 1537558794, "885712", 1537558794, "885712", null, "Jay MYSHKOWSKY", "School Trustee", null, "Louis Riel", "4" ]
+  , [ 363, "480A55AE-9557-48DF-8D0C-3656AEB616A8", 363, 1537558794, "885712", 1537558794, "885712", null, "Tom PARKER", "School Trustee", null, "Louis Riel", "4" ]
+  , [ 364, "16E11AD6-6815-42FC-BB07-4B3A382210BE", 364, 1537558794, "885712", 1537558794, "885712", null, "Corey BURGESS", "School Trustee", null, "Pembina Trails", "1" ]
+  , [ 365, "8EA66699-BABF-4D95-9569-D5490919D88B", 365, 1537558794, "885712", 1537558794, "885712", null, "Jaime GLENAT", "School Trustee", null, "Pembina Trails", "1" ]
+  , [ 366, "42D221B9-8B13-4EF6-AD2D-4773BC3A0118", 366, 1537558794, "885712", 1537558794, "885712", null, "Gerry MELNYK", "School Trustee", null, "Pembina Trails", "1" ]
+  , [ 367, "1E0A4CD9-08A9-45F4-8DF8-08E283CB5616", 367, 1537558794, "885712", 1537558794, "885712", null, "Jessica PERRY", "School Trustee", null, "Pembina Trails", "1" ]
+  , [ 368, "8D106F1A-E5AC-4D75-8ED7-C485B1FA5B24", 368, 1537558794, "885712", 1537558794, "885712", null, "Dianne ZUK", "School Trustee", null, "Pembina Trails", "1" ]
+  , [ 369, "C11A2887-3305-46FE-A1D3-F0DA15D25168", 369, 1537558794, "885712", 1537558794, "885712", null, "Sam ZURZOLO", "School Trustee", null, "Pembina Trails", "1" ]
+  , [ 370, "D7C7FC0D-BC92-4208-8FAE-9892A4C3E494", 370, 1537558794, "885712", 1537558794, "885712", null, "Sheila BILLINGHURST", "School Trustee", null, "Pembina Trails", "2" ]
+  , [ 371, "5286BC56-734C-4773-AA11-83303567F0AD", 371, 1537558794, "885712", 1537558794, "885712", null, "Andrew HARDER", "School Trustee", null, "Pembina Trails", "2" ]
+  , [ 372, "6D22C71D-977A-4AA3-9B56-8065C0364888", 372, 1537558794, "885712", 1537558794, "885712", null, "David JOHNSON", "School Trustee", null, "Pembina Trails", "2" ]
+  , [ 373, "E025BE3F-1FD4-472F-A444-D6E92EC41D16", 373, 1537558794, "885712", 1537558794, "885712", null, "Tim JOHNSON", "School Trustee", null, "Pembina Trails", "2" ]
+  , [ 374, "8DAD706D-4072-4F20-9654-CDE337E409CD", 374, 1537558794, "885712", 1537558794, "885712", null, "Sukh SINGH", "School Trustee", null, "Pembina Trails", "2" ]
+  , [ 375, "76B8FB44-9DD4-4C63-B1A0-69C9872FFCFA", 375, 1537558794, "885712", 1537558794, "885712", null, "Jasmine BRAR", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 376, "28E3B467-93C5-4B3F-9FED-1E986ABD7C90", 376, 1537558794, "885712", 1537558794, "885712", null, "Julie FISHER", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 377, "5A094CDC-4437-44A6-BBEF-A4E2758D335C", 377, 1537558794, "885712", 1537558794, "885712", null, "Laureen GOODRIDGE", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 378, "DAD5DAB1-A7D8-4868-AE8C-6AF4DD3B4E5B", 378, 1537558794, "885712", 1537558794, "885712", null, "Alia HARB", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 379, "72D8F7FA-EADE-458B-9273-74B32DAD2175", 379, 1537558794, "885712", 1537558794, "885712", null, "Laurie LAZER-McCORRIE", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 380, "D75361AA-D971-4318-BA06-32F2EEA489A6", 380, 1537558794, "885712", 1537558794, "885712", null, "Kathleen McMILLAN", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 381, "28803581-8780-4EBD-BC3E-9FF47E395519", 381, 1537558794, "885712", 1537558794, "885712", null, "Cindy NACHTIGALL", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 382, "39E9C56F-2258-4C23-933A-8E3B76C8B4E9", 382, 1537558794, "885712", 1537558794, "885712", null, "Yunusa SALAMI", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 383, "79CC77F6-1DDD-4476-8416-48DAB4518E1C", 383, 1537558794, "885712", 1537558794, "885712", null, "Simon STRAUMAN", "School Trustee", null, "Pembina Trails", "3" ]
+  , [ 384, "AE8BD601-5304-4C8D-B795-80D574745C52", 384, 1537558794, "885712", 1537558794, "885712", null, "Adam BURKOWSKI", "School Trustee", null, "River East Transcona", "1" ]
+  , [ 385, "46B7C870-D12C-4BC2-9D1C-4CE07B7C7DE4", 385, 1537558794, "885712", 1537558794, "885712", null, "Colleen CARSWELL", "School Trustee", null, "River East Transcona", "1" ]
+  , [ 386, "1A60E43E-72C0-41AA-A139-B599CA45BD57", 386, 1537558794, "885712", 1537558794, "885712", null, "Jerry SODOMLAK", "School Trustee", null, "River East Transcona", "1" ]
+  , [ 387, "E8D2A8D0-10A9-46B4-9756-7F6EC2E08749", 387, 1537558794, "885712", 1537558794, "885712", null, "Rod GIESBRECHT - Acclaimed", "School Trustee", null, "River East Transcona", "2" ]
+  , [ 388, "231A8D6C-C1F0-40E0-AF92-F71784F44E75", 388, 1537558794, "885712", 1537558794, "885712", null, "John TOEWS - Acclaimed", "School Trustee", null, "River East Transcona", "2" ]
+  , [ 389, "AC8251C0-0A67-4714-8983-1D2EA93D1467", 389, 1537558794, "885712", 1537558794, "885712", null, "Jason CRAMPTON", "School Trustee", null, "River East Transcona", "3" ]
+  , [ 390, "50F6C1E0-6AEB-4A06-836E-BA81BE4AC836", 390, 1537558794, "885712", 1537558794, "885712", null, "Brianne GOERTZEN", "School Trustee", null, "River East Transcona", "3" ]
+  , [ 391, "5C4D143A-54D6-4355-B3F1-3645E2F9050F", 391, 1537558794, "885712", 1537558794, "885712", null, "Roland HEADLEY", "School Trustee", null, "River East Transcona", "3" ]
+  , [ 392, "AF417876-B034-40FE-A6A1-0DD6E35FC271", 392, 1537558794, "885712", 1537558794, "885712", null, "Keith MORRISON", "School Trustee", null, "River East Transcona", "3" ]
+  , [ 393, "C179BEB9-4F3D-4764-8E68-DDE4908315AC", 393, 1537558794, "885712", 1537558794, "885712", null, "Brenda BAGE", "School Trustee", null, "River East Transcona", "4" ]
+  , [ 394, "70B332F1-FC21-429B-B57D-FF6FCCC5FDE8", 394, 1537558794, "885712", 1537558794, "885712", null, "Rob GIGIEL", "School Trustee", null, "River East Transcona", "4" ]
+  , [ 395, "107D4F19-8ABC-45E8-A25A-4AFAE68321E6", 395, 1537558794, "885712", 1537558794, "885712", null, "Peter KOTYK", "School Trustee", null, "River East Transcona", "4" ]
+  , [ 396, "69FF0F16-C4EF-412D-A054-325103E97250", 396, 1537558794, "885712", 1537558794, "885712", null, "Susan OLYNIK", "School Trustee", null, "River East Transcona", "4" ]
+  , [ 397, "4909BAAD-3F98-4A8C-B071-6D9D709A468B", 397, 1537558794, "885712", 1537558794, "885712", null, "Nicole BOWERING", "School Trustee", null, "St James-Assiniboia", "King Edward-Deer Lodge" ]
+  , [ 398, "8DB7BB83-F875-421D-B4DC-654F983B5419", 398, 1537558794, "885712", 1537558794, "885712", null, "Holly HUNTER", "School Trustee", null, "St James-Assiniboia", "King Edward-Deer Lodge" ]
+  , [ 399, "21BB6C98-3285-4148-A21C-BA236D1A7854", 399, 1537558794, "885712", 1537558794, "885712", null, "Jennifer LAWSON", "School Trustee", null, "St James-Assiniboia", "King Edward-Deer Lodge" ]
+  , [ 400, "881E3540-8D90-40C8-B1A8-9283E0436E4A", 400, 1537558794, "885712", 1537558794, "885712", null, "Vicki REMPEL", "School Trustee", null, "St James-Assiniboia", "King Edward-Deer Lodge" ]
+  , [ 401, "09795505-9C9D-4274-8A83-26190CF2523D", 401, 1537558794, "885712", 1537558794, "885712", null, "Adam TAPLIN", "School Trustee", null, "St James-Assiniboia", "King Edward-Deer Lodge" ]
+  , [ 402, "1CA51D86-9C89-4102-93B0-2A1552C57714", 402, 1537558794, "885712", 1537558794, "885712", null, "Peter WOODS", "School Trustee", null, "St James-Assiniboia", "King Edward-Deer Lodge" ]
+  , [ 403, "3279A186-CD5D-4531-8A9A-CDFE0792E4EE", 403, 1537558794, "885712", 1537558794, "885712", null, "Bruce CHEGUS", "School Trustee", null, "St James-Assiniboia", "Kirkfield-St Charles" ]
+  , [ 404, "D4AB7C7E-5146-454B-AF67-BACA57A8946B", 404, 1537558794, "885712", 1537558794, "885712", null, "Sandy LETHBRIDGE", "School Trustee", null, "St James-Assiniboia", "Kirkfield-St Charles" ]
+  , [ 405, "63316FFF-2E73-4FE4-BD64-170635461AA0", 405, 1537558794, "885712", 1537558794, "885712", null, "Zachary LINNICK", "School Trustee", null, "St James-Assiniboia", "Kirkfield-St Charles" ]
+  , [ 406, "4147DEE2-5831-40B7-9B04-38299BF8F92A", 406, 1537558794, "885712", 1537558794, "885712", null, "Lou MULVENNA", "School Trustee", null, "St James-Assiniboia", "Kirkfield-St Charles" ]
+  , [ 407, "CFBFF09E-FAC2-4C45-ADE9-46F17A64C4A6", 407, 1537558794, "885712", 1537558794, "885712", null, "Charles RAMJUG", "School Trustee", null, "St James-Assiniboia", "Kirkfield-St Charles" ]
+  , [ 408, "7D1E1ACE-D57E-4BDC-885D-644BC1C25DCD", 408, 1537558794, "885712", 1537558794, "885712", null, "Cheryl SMUKOWICH", "School Trustee", null, "St James-Assiniboia", "Kirkfield-St Charles" ]
+  , [ 409, "FDB5296D-695D-4064-B06B-2EC16650B935", 409, 1537558794, "885712", 1537558794, "885712", null, "Megan WEGERT", "School Trustee", null, "St James-Assiniboia", "Kirkfield-St Charles" ]
+  , [ 410, "80A13ACE-164F-4576-9108-67F508CF75E0", 410, 1537558794, "885712", 1537558794, "885712", null, "Tracey DREXLER", "School Trustee", null, "St James-Assiniboia", "Silver Heights-Booth" ]
+  , [ 411, "8C0EB521-C70C-4AF8-9229-17715AF897E7", 411, 1537558794, "885712", 1537558794, "885712", null, "Craig GLENNIE", "School Trustee", null, "St James-Assiniboia", "Silver Heights-Booth" ]
+  , [ 412, "FC7B02DC-33B0-4B2A-9AF6-596E06D373CD", 412, 1537558794, "885712", 1537558794, "885712", null, "Craig JOHNSON", "School Trustee", null, "St James-Assiniboia", "Silver Heights-Booth" ]
+  , [ 413, "A269BD06-06A1-4A6A-B57C-A3CC538E6697", 413, 1537558794, "885712", 1537558794, "885712", null, "Kris KENDALL", "School Trustee", null, "St James-Assiniboia", "Silver Heights-Booth" ]
+  , [ 414, "6450B480-38BF-4A73-84F8-FAFA2E2DAD2E", 414, 1537558794, "885712", 1537558794, "885712", null, "Craig McGREGOR", "School Trustee", null, "St James-Assiniboia", "Silver Heights-Booth" ]
+  , [ 415, "27FDBEA5-924E-4AFC-8F09-DF7E02753C48", 415, 1537558794, "885712", 1537558794, "885712", null, "Bryan METCALFE", "School Trustee", null, "St James-Assiniboia", "Silver Heights-Booth" ]
+  , [ 416, "64515C5C-45B2-44D1-B05D-D0AED3492A89", 416, 1537558794, "885712", 1537558794, "885712", null, "Jaspal BEDI", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 417, "B8378F79-BBCC-49DA-985F-D00C3C5671B2", 417, 1537558794, "885712", 1537558794, "885712", null, "Diane CAMERON", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 418, "46DA8508-EAD7-48FE-9C71-20FC2BFAF718", 418, 1537558794, "885712", 1537558794, "885712", null, "Derek DABEE", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 419, "8872B3D3-F2C6-4DF1-A6D9-4B6E6F927C4A", 419, 1537558794, "885712", 1537558794, "885712", null, "Kelly LEGASPI", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 420, "C7FDD357-BBFB-4FD3-A7B4-5DEDDB6EFD68", 420, 1537558794, "885712", 1537558794, "885712", null, "Greg McFARLANE", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 421, "195D7949-27C1-4062-A0D5-D222D5E255B8", 421, 1537558794, "885712", 1537558794, "885712", null, "Paul ONG", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 422, "F576D995-55B9-4E42-A3A3-C3AA185C8382", 422, 1537558794, "885712", 1537558794, "885712", null, "Mario SANTOS", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 423, "907BF348-B168-4904-90C3-1BC7E51CDC93", 423, 1537558794, "885712", 1537558794, "885712", null, "Debbie SHANE", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 424, "056B631E-6769-4016-A0F5-CD168F594208", 424, 1537558794, "885712", 1537558794, "885712", null, "Christian TARDI", "School Trustee", null, "Seven Oaks", "2" ]
+  , [ 425, "49C0FC4F-05C4-426F-8BF2-0BE22BCCCF11", 425, 1537558794, "885712", 1537558794, "885712", null, "Teresa JAWORSKI - Acclaimed", "School Trustee", null, "Seven Oaks", "3" ]
+  , [ 426, "3F3822DF-0200-4766-BE23-40C5C70E81E2", 426, 1537558794, "885712", 1537558794, "885712", null, "Edward PLOSZAY  - Acclaimed", "School Trustee", null, "Seven Oaks", "3" ]
+  , [ 427, "D202337B-3BAE-4B00-AB2D-AD9EF2D0BDF4", 427, 1537558794, "885712", 1537558794, "885712", null, "Richard SAWKA - Acclaimed", "School Trustee", null, "Seven Oaks", "3" ]
+  , [ 428, "4E3E2AFD-86F3-4843-90B6-21136649271E", 428, 1537558794, "885712", 1537558794, "885712", null, "Claudia SARBIT - Acclaimed", "School Trustee", null, "Seven Oaks", "3" ]
+  , [ 429, "71B1813C-D40C-4FA9-8831-CA26FE934EC4", 429, 1537558794, "885712", 1537558794, "885712", null, "Jamie DUMONT", "School Trustee", null, "Winnipeg", "1" ]
+  , [ 430, "18B06BAA-8D79-463F-83CF-E92B25ACC27A", 430, 1537558794, "885712", 1537558794, "885712", null, "Bruce KEMP", "School Trustee", null, "Winnipeg", "1" ]
+  , [ 431, "A27586DA-3AA4-4DC9-A152-7758837921AA", 431, 1537558794, "885712", 1537558794, "885712", null, "Chris BROUGHTON", "School Trustee", null, "Winnipeg", "2" ]
+  , [ 432, "EA07C79C-3F14-45D6-A9BB-61AE19BD0BEE", 432, 1537558794, "885712", 1537558794, "885712", null, "Michael CARDILLO", "School Trustee", null, "Winnipeg", "2" ]
+  , [ 433, "96EBE35B-5F8B-48D6-8456-34E95135C1A7", 433, 1537558794, "885712", 1537558794, "885712", null, "Mark WASYLIW - Acclaimed", "School Trustee", null, "Winnipeg", "3" ]
+  , [ 434, "24E72D0C-296C-4317-92C5-FB15C0CEDD52", 434, 1537558794, "885712", 1537558794, "885712", null, "Lisa NAYLOR - Acclaimed", "School Trustee", null, "Winnipeg", "4" ]
+  , [ 435, "7C700EA2-6BAC-4B8E-B453-BC055341ED68", 435, 1537558794, "885712", 1537558794, "885712", null, "Kevin FREEDMAN", "School Trustee", null, "Winnipeg", "5" ]
+  , [ 436, "C8C65920-63EC-46BB-85FE-488268860A88", 436, 1537558794, "885712", 1537558794, "885712", null, "Cindy MURDOCH", "School Trustee", null, "Winnipeg", "5" ]
+  , [ 437, "A54350B4-25A8-4782-9C62-6FEB52002F29", 437, 1537558794, "885712", 1537558794, "885712", null, "Yijie CHEN", "School Trustee", null, "Winnipeg", "6" ]
+  , [ 438, "C405D336-F9D5-49D8-81E6-419F218A0FB8", 438, 1537558794, "885712", 1537558794, "885712", null, "Rey SANGALANG", "School Trustee", null, "Winnipeg", "6" ]
+  , [ 439, "315D40A7-3CA4-4127-A3C9-374DA709736D", 439, 1537558794, "885712", 1537558794, "885712", null, "Arlene REID - Acclaimed", "School Trustee", null, "Winnipeg", "7" ]
+  , [ 440, "DA721696-58ED-4AA4-B9B7-2B2FC7174D9E", 440, 1537558794, "885712", 1537558794, "885712", null, "Christine BROUZES", "School Trustee", null, "Winnipeg", "8" ]
+  , [ 441, "883F8377-3D5D-41AE-8D34-649A69624C0F", 441, 1537558794, "885712", 1537558794, "885712", null, "Betty EDEL", "School Trustee", null, "Winnipeg", "8" ]
+  , [ 442, "3A20A78F-7E55-4F22-B754-A460E6ECDB0D", 442, 1537558794, "885712", 1537558794, "885712", null, "Robert BUTERNOWSKY", "School Trustee", null, "Winnipeg", "9" ]
+  , [ 443, "41891E4B-60F9-42FE-A39D-A65935FED1CC", 443, 1537558794, "885712", 1537558794, "885712", null, "Gagandeep CHAHAL", "School Trustee", null, "Winnipeg", "9" ]
+  , [ 444, "75550167-F8A6-460A-B34B-12507AA0573F", 444, 1537558794, "885712", 1537558794, "885712", null, "Dennae KOSHELANYK", "School Trustee", null, "Winnipeg", "9" ]
+  , [ 445, "72F7CDFE-9B30-49A6-A850-6C174FB65E6B", 445, 1537558794, "885712", 1537558794, "885712", null, "Linda SCHATKOWSKY", "School Trustee", null, "Winnipeg", "9" ]
+  , [ 446, "AD7FEF8D-35B8-47EB-8356-B0A0100091CA", 446, 1537558794, "885712", 1537558794, "885712", null, "Michael SUGAWARA", "School Trustee", null, "Winnipeg", "9" ]
+  , [ 447, "5DABF971-F8C3-4C26-9DB9-047032EE1B9D", 447, 1537558794, "885712", 1537558794, "885712", null, "Warren REAVELY", "School Trustee", null, "Seine River", "1" ]
+  , [ 448, "D52C9050-E5DE-4630-A59C-15E17ACA2E21", 448, 1537558794, "885712", 1537558794, "885712", null, "Neil REAVELY", "School Trustee", null, "Seine River", "1" ]
+  , [ 449, "701C7AD1-0086-440A-9204-B97459C3A1AC", 449, 1537558794, "885712", 1537558794, "885712", null, "Greg REID", "School Trustee", null, "Seine River", "1" ]
+  , [ 450, "767D20F1-F5E0-4B8C-9E9D-14DA7CAEE903", 450, 1537558794, "885712", 1537558794, "885712", null, "Gary NELSON", "School Trustee", null, "Seine River", "1" ]
+  , [ 451, "ADA3D1B2-38ED-4598-B90E-9FFE22F2A857", 451, 1537558794, "885712", 1537558794, "885712", null, "Wendy BLOOMFIELD", "School Trustee", null, "Seine River", "1" ]
+  ]
+}

@@ -1,0 +1,118 @@
+$register-container-width: 60%;
+
+.reg-log-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 12px;
+
+    background: white;
+
+    .reg-login-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        width: 100 - $register-container-width;
+    }
+
+    .register-container {
+        width: $register-container-width;
+
+        input {
+            border-style: none;
+            background: transparent;
+            outline: none;
+            font-size: 1.4rem; 
+            width: 100%;
+        }
+
+        input[type=text],
+        input[type=email],
+        input[type=password]
+        {
+            border-bottom: 1px solid $capslok-purple;
+        }
+
+        form {
+            padding: 3rem;
+
+            div {
+                padding: .75rem 0;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                width: 100%;
+            }
+
+            [class$="-container"] {
+                display: flex;
+                flex-direction: column;
+            }
+
+            .party-info-container,
+            .is-politician-container,
+            .location-container,
+            .full-name-container {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+
+                & > div,
+                & > label,
+                & > input {
+                    max-width: 48%;
+                }
+            }
+
+            .submit-container {
+                justify-content: center;
+
+                button {
+                    background-color: $capslok-purple;
+                    color: white;
+                    text-align: center;
+                    border: none;
+
+                    padding: 1rem;
+
+                    font-family: $lato-font;
+                    font-size: 1.4rem;
+                    font-weight: 300;
+                    width: 50%;
+
+                    .submit-content{
+
+                        &:after {
+                            position: absolute;
+
+                            content: '\00bb';
+                            opacity: 0;
+
+                            transition: all 0.5s;
+
+                            transform: translateX(.5rem);
+                        }
+                    }
+        
+                    &:hover {
+                        .submit-content{
+                            &:after {
+                                opacity: 1;
+                                transform: translateX(.25rem);
+                            }
+                        }
+                    }
+                }
+            }
+
+            .politician-container {
+                display: none;
+            }
+        }
+    }
+}

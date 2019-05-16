@@ -1,0 +1,45 @@
+
+.politician-card-row {
+    margin: 1.5rem 0;
+    display: inline-grid;
+
+    header {
+        .title {
+            font-family: $lato-font;
+            font-size: 3rem;
+            font-weight: 300;
+            color: $politician-card-content-color;
+        }
+    }
+
+    & > .content {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.politician-card-table {
+    margin: 1.5rem 0;
+    display: inline-grid;
+
+    header {
+        .title {
+            font-family: $lato-font;
+            font-size: 3rem;
+            font-weight: 300;
+            color: $politician-card-content-color;
+        }
+    }
+
+    & > .content {
+        display: block;
+
+        & > a {
+            float: left;
+        }
+
+        & > .card {
+            float: left;
+        }
+    }
+}

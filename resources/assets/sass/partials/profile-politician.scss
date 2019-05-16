@@ -1,0 +1,146 @@
+//.profile-politician {
+//    .container {
+//        color: $politician-card-content-color;
+//    }
+//
+//    header {
+//        position: relative;
+//
+//        max-height: $profile-header-height;
+//        overflow: hidden;
+//
+//        .bg-pic {
+//            width: 100%;
+//        }
+//    }
+//
+//    .content {
+//        position: relative;
+//        font-family: $lato-font;
+//
+//        .profile-pic-container {
+//            position: absolute;
+//            top: 0;
+//            left: 50%;
+//
+//            transform: translate(-50%, -50%);
+//        }
+//
+//        .info {
+//            padding-top: 9rem;
+//
+//            display: flex;
+//            flex-direction: column;
+//            justify-content: center;
+//
+//            text-align: center;
+//
+//            .title {
+//                .name {
+//                    font-size: 4rem;
+//
+//                    .last-name {
+//                        font-size: 3.5rem;
+//                        font-weight: 300;
+//                    }
+//                }
+//            }
+//
+//            .party {
+//                font-size: 2rem;
+//                font-weight: 300;
+//            }
+//
+//            .description-container {
+//                margin-top: 2rem;
+//                font-style: italic;
+//                font-size: 1.2rem;
+//            }
+//        }
+//    }
+//}
+
+/* USER PROFILE PAGE */
+.card2 {
+  margin-top: 20px;
+  padding: 80px;
+  background-color: rgba(214, 224, 226, 0.2);
+  -webkit-border-top-left-radius:5px;
+  -moz-border-top-left-radius:5px;
+  border-top-left-radius:5px;
+  -webkit-border-top-right-radius:5px;
+  -moz-border-top-right-radius:5px;
+  border-top-right-radius:5px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.card2.hovercard {
+  position: relative;
+  padding-top: 0;
+  overflow: hidden;
+  text-align: center;
+  background-color: grey;
+}
+.card2.hovercard .card-background {
+  height: 200px;
+  -webkit-filter: blur(7px);
+  filter: blur(7px);
+}
+.card-background img {
+  -webkit-filter: blur(2  px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+  margin-left: -100px;
+  //margin-top: -200px;
+  min-width: 200%;
+}
+.card2.hovercard .useravatar {
+  position: absolute;
+  top: 15px;
+  left: 0;
+  right: 0;
+}
+.card2.hovercard .useravatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+.card2.hovercard .card-info {
+  position: absolute;
+  bottom: 14px;
+  left: 0;
+  right: 0;
+}
+.card2.hovercard .card-info .card-title {
+  padding: 0 5px;
+  font-size: 17px;
+  line-height: 19px;
+  color: #fff;
+  background-color: transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  text-shadow: 0px 2px 3px #000;
+}
+.card2.hovercard .card-info {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+.card2.hovercard .bottom {
+  padding: 0 20px;
+  margin-bottom: 17px;
+}
+.btn-pref .btn {
+  -webkit-border-radius:0 !important;
+}
+

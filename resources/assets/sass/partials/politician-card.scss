@@ -1,0 +1,233 @@
+
+$footer-border-color: #BDBDBD;
+$profile-pic-height: 10rem;
+
+$header-height: 25%;
+$content-height: 40%;
+$footer-height: 13%;
+
+$content-height-hover: 62%;
+
+[class$="politician-card"] {
+    background: white;
+    
+    position: relative;
+
+    height: $politician-card-height;
+    width: $politician-card-width;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 12px;
+
+    overflow: hidden;
+
+    img {
+        position: absolute;
+        top: 0;
+        min-height: 100%;
+        min-width: 100%;
+    }
+
+    header {
+        transition: 0.5s all;
+
+        position: absolute;
+        top: 0;
+        
+        width: 100%;
+        height: $header-height + ($content-height-hover - $content-height);
+        
+        overflow: hidden;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .content {
+        transition: 0.5s all;
+
+        font-family: $lato-font;
+        color: $politician-card-content-color;
+
+        height: $content-height;
+
+        position: absolute;
+        width: 100%;
+        bottom: 0;
+        margin-bottom: 13%;;
+
+        .profile-pic-container {
+            position: absolute;
+            top: 0;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            height: $profile-pic-height;
+            width: 10rem;
+
+            border-radius: 100%;
+            border: .25rem solid white;
+
+            box-shadow: rgba(0, 0, 0, 0.3) 0 0 .5rem;
+            
+            overflow: hidden;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+            .profile-pic {
+                position: relative;
+                height: 100%;
+            }
+        }
+
+        .info {
+            width: 100%;
+
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, $profile-pic-height / 2 + 1rem);
+            
+            font-size: 1.2rem;
+            
+            .title {
+                text-align: center;
+
+                .name {
+                    font-size: 1.8rem;
+
+                    .first-name {
+                        font-size: 2.2rem;
+                    }
+
+                    .last-name {
+                        font-size: 2.0rem;
+                        font-weight: 300;
+                    }
+                }
+
+                .party {
+                    font-size: 1rem;
+                }
+            }
+
+            & > div:not(:first-child) {
+                transition: 0.5s all;
+                opacity: 0;
+                padding-left: 2rem;
+                padding-top: .35rem;
+            }
+
+            .location {
+                margin-top: 1rem;
+            }
+        }
+    }
+
+    footer {
+        background: white;
+
+        position: absolute;
+        bottom: 0;
+
+        width: 100%;
+        height: $footer-height;
+
+        .social-links {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+            list-style-type: none;
+
+            border-top: solid 1px $footer-border-color;
+            
+            height: 100%;
+
+            li  {
+                flex: 1;
+                
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                height: 100%;
+        
+                &:not(:last-child) {
+                    border-right: $footer-border-color 1px solid;
+                }
+
+                .fa-facebook-f {
+                    color: $facebook-color;
+                }
+
+                .fa-twitter {
+                    color: $twitter-color;
+                }
+            }
+        }
+    }
+
+    .ad-container,
+    .more-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        transition: all 0.25s;
+
+        .plus-icon {
+            font-size: 9rem;
+        }
+
+        .title {
+            font-size: 4.5rem;
+            font-family: $lato-font;
+        }
+    }
+
+    .more-container {
+        color: $more-card-color;
+    }
+
+    .ad-container {
+        color: #ffc40d;
+    }
+
+    &:hover {
+        cursor: pointer;
+
+        header {
+            height: $header-height;
+        }
+
+        .content {
+            height: $content-height-hover;
+
+
+            .info > div:not(:first-child) {
+                opacity: 1;
+            }
+        }
+
+        .more-container {
+            color: $politician-card-content-color;
+        }
+    }
+}
+
+.ad-politician-card {
+    background: #9f00a7;
+}

@@ -1,0 +1,173 @@
+// $login-background-color: #424242;
+$login-background-color: white;
+// $login-title-color: white;
+$login-title-color: #424242;
+
+// $login-text-background: #424242;
+$login-text-background: white;
+
+$login-text-color: white;
+$login-text-color: #424242;
+
+$login-font-size: 1.5rem;
+
+$login-section-size: 28rem;
+
+$login-container-width: 35rem;
+$login-container-height: 32rem;
+
+
+.reg-log-body {
+    height: 100vh;
+    width: 100%;
+
+    form {
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+.login-container {
+    width: $login-container-width;
+    height: $login-container-height;
+
+    font-family: $lato-font;
+
+    background: $login-background-color;
+    color: $login-title-color;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0 0 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    header {
+        width: $login-section-size;
+        overflow: hidden;
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        margin-bottom: .25rem;
+
+        h1, h2, h3 {
+            font-family: $lato-font;
+        }
+
+        img {
+            max-width: $login-section-size;
+            margin-bottom: .25rem;
+        }
+    }
+
+    [class$="-section"] {
+        width: $login-section-size;
+        
+        display: flex;
+        flex-direction: column;
+
+        margin: 1rem 0;
+
+        [class$="-container"] {
+            background: $login-text-background;
+            
+            font-size: $login-font-size;
+            color: $login-text-color;
+            
+            padding:  0.5rem 0;
+
+            border-bottom: solid $login-text-color 1px;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            input {
+                font-size: $login-font-size;
+                border: none;
+
+                margin-left: 0.45rem;
+
+                flex: 1;
+            
+                &:active,
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+
+    .checkbox-container {
+        width: $login-section-size;
+        padding: .75rem;
+
+        label {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            span {
+                margin: 0 .25rem;
+            }
+        }
+
+        input[type="checkbox"] {
+            display: none;
+
+            &:checked + .circle-checkbox {
+                background-color: $capslok-purple;
+                border-color: $capslok-purple;
+                color: #F5F5F5;
+                
+                font-size: 1.1rem;
+                opacity: 1;
+            }
+        }
+
+        .circle-checkbox {
+            border: $login-text-color 1px solid;
+            border-radius: 50%;
+            padding: .2rem;
+            
+            transition: all 0.25s ease-in-out;
+            
+            opacity: 0.4;
+
+            i {
+                transition: all 0.25s ease-in-out;
+            }
+        }
+    }
+
+    .submit-container {
+        width: $login-section-size;
+        
+        display: flex;
+        flex-direction: column;
+
+        padding: 1rem;
+
+        button {
+            padding: .75rem;
+            font-size: $login-font-size;
+            
+            background: $capslok-purple;
+            color: white;
+        }
+
+        a {
+            color: $capslok-purple;
+        }
+    }
+}

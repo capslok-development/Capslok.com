@@ -1,0 +1,96 @@
+$administrator-color:       #80D8FF;
+$administrator-color-hover: #00B0FF;
+
+$politician-color:          #A7FFEB;
+$politician-color-hover:    #1DE9B6;
+
+$pending-politician-color:      #B388FF;
+$pending-politician-color-hover:#7C4DFF;
+
+$moderator-color:           #FFE57F;
+$moderator-color-hover:     #FFC400;
+
+$normal-color:              #F5F5F5;
+$normal-color-hover:        #BDBDBD;
+
+.users-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    font-family: $lato-font;
+    
+    tr {
+        background: white;
+
+        display: flex;
+        flex-direction: row;
+
+        padding: .5rem;
+        
+        border: 1px solid black;
+
+        th, td {
+            text-align: center;
+        }
+
+        .user-id {
+            width: 3rem;
+        }
+
+        .user-name,
+        .first-name,
+        .last-name,
+        .user-type {
+            width: 12rem;
+        }
+
+        .email {
+            width: 20rem;
+        }
+
+        &.administrator {
+            background: $administrator-color;
+        }
+
+        &.politician {
+            background: $politician-color;
+        }
+
+        &.pending.politician {
+            background: $pending-politician-color;
+        }
+
+        &.moderator {
+            background: $moderator-color;
+        }
+
+        &.normal {
+            background: $normal-color;
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            &.administrator {
+                background: $administrator-color-hover;
+            }
+
+            &.politician {
+                background: $politician-color-hover;
+            }
+
+            &.pending.politician {
+                background: $pending-politician-color-hover;
+            }
+
+            &.moderator {
+                background: $moderator-color-hover;
+            }
+
+            &.normal {
+                background: $normal-color-hover;
+            }
+        }
+    }
+}

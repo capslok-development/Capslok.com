@@ -1,0 +1,50 @@
+$link-color: #212121;
+$link-hover-color: #757575;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $body-bg;
+}
+
+a {
+    text-decoration: none;
+    font-family: $lato-font;
+
+    color: $link-color;
+
+    &:hover {
+        color: $link-hover-color;
+    }
+}
+
+.container {
+    width: 100%;
+    max-width: ($politician-card-width + $politician-card-spacing) * 6;
+    margin: 0 auto;
+}
+
+.save-button {
+    background: transparent;    
+
+    border: none;
+    font-size: 2rem;
+
+    &:hover {
+        color: $text-color;
+        cursor: pointer;
+    }
+}
+
+.med-quotes {
+    font-size: 1.5rem;
+    font-family: $lato-font;
+    color: $text-color;
+}
+
+.error {
+    color: red;
+}
